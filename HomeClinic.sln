@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeClinic.DAL", "HomeClini
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeClinic.Test", "HomeClinic.Test\HomeClinic.Test.csproj", "{FA9D338D-D0BA-4A8A-916E-A91256048931}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{6D2B6E0E-CC69-4BBA-9639-D580AF56C5AA}"
+	ProjectSection(SolutionItems) = preProject
+		1 - Funcionalidades.txt = 1 - Funcionalidades.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
