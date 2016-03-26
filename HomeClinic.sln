@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeClinic.Domain", "HomeCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeClinic.DAL", "HomeClinic.DAL\HomeClinic.DAL.csproj", "{39E4E6DA-A0C6-4449-A527-8850E1DA2883}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeClinic.Test", "HomeClinic.Test\HomeClinic.Test.csproj", "{FA9D338D-D0BA-4A8A-916E-A91256048931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{39E4E6DA-A0C6-4449-A527-8850E1DA2883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39E4E6DA-A0C6-4449-A527-8850E1DA2883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39E4E6DA-A0C6-4449-A527-8850E1DA2883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9D338D-D0BA-4A8A-916E-A91256048931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9D338D-D0BA-4A8A-916E-A91256048931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9D338D-D0BA-4A8A-916E-A91256048931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9D338D-D0BA-4A8A-916E-A91256048931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

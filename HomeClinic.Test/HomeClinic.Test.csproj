@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{286A0A15-DF9E-41D3-A0DB-18E5C2BA54CA}</ProjectGuid>
+    <ProjectGuid>{FA9D338D-D0BA-4A8A-916E-A91256048931}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HomeClinic.Domain</RootNamespace>
-    <AssemblyName>HomeClinic.Domain</AssemblyName>
+    <RootNamespace>HomeClinic.Test</RootNamespace>
+    <AssemblyName>HomeClinic.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,26 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\Account.cs" />
-    <Compile Include="Entity\Animal.cs" />
-    <Compile Include="Entity\AnimalKind.cs" />
-    <Compile Include="Entity\Breed.cs" />
-    <Compile Include="Entity\Country.cs" />
-    <Compile Include="Entity\Enterprise.cs" />
-    <Compile Include="Entity\Entity.cs" />
-    <Compile Include="Entity\Leathering.cs" />
-    <Compile Include="Entity\Medicine.cs" />
-    <Compile Include="Entity\Prescription.cs" />
-    <Compile Include="Entity\PrescriptionProduct.cs" />
-    <Compile Include="Entity\State.cs" />
-    <Compile Include="Entity\User.cs" />
-    <Compile Include="Enum\AccountKindEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DTO\" />
-    <Folder Include="Extension\" />
-    <Folder Include="Interface\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

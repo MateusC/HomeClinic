@@ -6,7 +6,7 @@ namespace HomeClinic.Presentation
 {
     public partial class Form1 : Form
     {
-        private Facade _facade;
+        private IFacade _facade;
         public Form1()
         {
             InitializeComponent();
