@@ -1,1 +1,23 @@
 
+HomeClinic
+
+Principais Funcionalidades requeridas pela Joyce na Reunião do Levantamento dos Requisitos
+
+O software deve conter:
+
+- Cadastros
+    Animais
+    Clientes
+    Serviços (Atendimento, )
+    Agendamento (Consultas, Historico de atendimento..., Historico de Consulta, Agenda de banho,
+                 Exames, Historico de Vacinas)
+- Documentos em PDF
+    Prontuário de Consulta
+    Encaminhamentos de Cirurgia
+    Encaminhamentos de Exames
+    Termos de Autorização para realização de Cirurgia
+    Termos de Autorização para realização de Eutanasia
+    Receituário
+    
+    
+  
