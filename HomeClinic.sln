@@ -18,6 +18,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 		1 - Funcionalidades.txt = 1 - Funcionalidades.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferramentas do Banco", "Ferramentas do Banco", "{8287B554-18DB-43F2-9694-BF8B29BC4DAF}"
+	ProjectSection(SolutionItems) = preProject
+		Database Manager.exe = Database Manager.exe
+		Firebird Installer.exe = Firebird Installer.exe
+		PETSHOP.FDB = PETSHOP.FDB
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeClinic.NHibernate", "HomeClinic.NHibernate\HomeClinic.NHibernate.csproj", "{6562C26B-1D37-4D56-A238-8CC89F959AC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F058757A-8FA5-484E-9689-782008BAB20D}"
+	ProjectSection(SolutionItems) = preProject
+		DatabaseConfiguration.xml = DatabaseConfiguration.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +59,10 @@ Global
 		{FA9D338D-D0BA-4A8A-916E-A91256048931}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA9D338D-D0BA-4A8A-916E-A91256048931}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA9D338D-D0BA-4A8A-916E-A91256048931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6562C26B-1D37-4D56-A238-8CC89F959AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6562C26B-1D37-4D56-A238-8CC89F959AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6562C26B-1D37-4D56-A238-8CC89F959AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6562C26B-1D37-4D56-A238-8CC89F959AC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

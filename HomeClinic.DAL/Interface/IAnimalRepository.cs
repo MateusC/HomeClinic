@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HomeClinic.Domain.Entity;
+using HomeClinic.NHibernate.Interface;
 
 namespace HomeClinic.DAL.Interface
 {
-    public interface IAnimalRepository
+    public interface IPetRepository : IRepositoryBase<Pet>
     {
     }
 }

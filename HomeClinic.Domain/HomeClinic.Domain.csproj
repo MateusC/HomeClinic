@@ -40,9 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTO\ConfigurationXml.cs" />
     <Compile Include="Entity\Account.cs" />
-    <Compile Include="Entity\Animal.cs" />
-    <Compile Include="Entity\AnimalKind.cs" />
+    <Compile Include="Entity\Pet.cs" />
+    <Compile Include="Entity\PetKind.cs" />
     <Compile Include="Entity\Breed.cs" />
     <Compile Include="Entity\Country.cs" />
     <Compile Include="Entity\Enterprise.cs" />
@@ -54,11 +55,11 @@
     <Compile Include="Entity\State.cs" />
     <Compile Include="Entity\User.cs" />
     <Compile Include="Enum\AccountKindEnum.cs" />
+    <Compile Include="Enum\EnumDatabaseProvider.cs" />
+    <Compile Include="Extension\XmlExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DTO\" />
-    <Folder Include="Extension\" />
     <Folder Include="Interface\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -2,11 +2,11 @@
 
 namespace HomeClinic.Domain.Entity
 {
-    public class Animal : Entity
+    public class Pet : Entity
     {
         public String Name { get; set; }
         public DateTime BirthDay { get; set; }
-        public Breed AnimalBreed { get; set; }
+        public Breed PetBreed { get; set; }
         public String ColorOne { get; set; }
         public String ColorTwo { get; set; }
         public String Pelage { get; set; }

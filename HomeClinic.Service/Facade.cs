@@ -1,28 +1,39 @@
 ﻿using HomeClinic.Service.Interface;
 using HomeClinic.Service.Services;
+using Microsoft.Practices.Unity.InterceptionExtension;
+using HomeClinic.NHibernate;
+using HomeClinic.Domain.DTO;
+using HomeClinic.Domain.Entity;
+using System.Collections.Generic;
+using HomeClinic.DAL.Mapping;
 
 namespace HomeClinic.Service
 {
     public class Facade : IFacade
     {
-        private AnimalService _animalService;
+        private PetService _petService;
 
-        private static Facade _instance;
+        private Facade() { /*somente para não ser instanciado fora daqui.*/ }
 
-        public static Facade Instance
+        public static IFacade GetInstance(ConfigurationXml xmlConfig)
         {
-            get
-            {
-                if (_instance == null)
-                    _instance = new Facade();
+            DatabaseConfig config = new DatabaseConfig(xmlConfig.ConnectionString, xmlConfig.Provider, typeof(AbstractMap<>).Assembly);
 
-                return _instance;
-            }
+            var factory = NHibernateContext.GetFactory(config);
+
+            IFacade facade = Intercept.ThroughProxy<IFacade>(new Facade(), new InterfaceInterceptor(), new[] { new NHibernateSessionManager(factory) });
+
+            return facade;
         }
 
-        private Facade()
+        public List<Pet> GetAllPets()
         {
-            _animalService = AnimalService.Instance;
+            return _petService.GetAll();
+        }
+
+        public void Initialization()
+        {
+            _petService = PetService.Instance;
         }
     }
 }

@@ -1,25 +1,24 @@
 ﻿using HomeClinic.DAL.Interface;
+using HomeClinic.Domain.Entity;
+using HomeClinic.NHibernate.RepositoryBase;
 
 namespace HomeClinic.DAL.Repository
 {
-    public class AnimalRepository : IAnimalRepository
+    public class PetRepository : RepositoryBase<Pet>, IPetRepository
     {
-        private static AnimalRepository _instance;
+        private static PetRepository _instance;
 
-        public static AnimalRepository Instance
+        private PetRepository() { /*somente para não ser instanciado fora daqui.*/ }
+
+        public static PetRepository Instance
         {
             get
             {
                 if (_instance == null)
-                    _instance = new AnimalRepository();
+                    _instance = new PetRepository();
 
                 return _instance;
             }
-        }
-
-        private AnimalRepository()
-        {
-            //construtor da repositorio.
         }
     }
 }
