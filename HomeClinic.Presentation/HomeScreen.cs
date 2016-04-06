@@ -24,6 +24,18 @@ namespace HomeClinic.Presentation
         private void tosaToolStripMenuItem1_Click(object sender, System.EventArgs e)
         {
 
-        }      
+        }
+
+        private void clienteToolStripMenuItem1_Click(object sender, System.EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(new ControlPerson());
+        }
+
+        private void veterinárioToolStripMenuItem1_Click(object sender, System.EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(new ControlPerson());
+        }
     }
 }

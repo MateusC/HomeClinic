@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeScreen));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripDropDownButton2 = new System.Windows.Forms.ToolStripDropDownButton();
             this.administrativoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.medicamentoVacinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,7 +39,6 @@
             this.clienteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.petToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.veterinárioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
@@ -65,6 +65,12 @@
             this.toolStrip1.Size = new System.Drawing.Size(613, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripLabel3
+            // 
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(48, 22);
+            this.toolStripLabel3.Text = "Agenda";
             // 
             // toolStripDropDownButton2
             // 
@@ -114,6 +120,7 @@
             this.clienteToolStripMenuItem1.Name = "clienteToolStripMenuItem1";
             this.clienteToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.clienteToolStripMenuItem1.Text = "Cliente";
+            this.clienteToolStripMenuItem1.Click += new System.EventHandler(this.clienteToolStripMenuItem1_Click);
             // 
             // petToolStripMenuItem1
             // 
@@ -127,12 +134,7 @@
             this.veterinárioToolStripMenuItem1.Name = "veterinárioToolStripMenuItem1";
             this.veterinárioToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.veterinárioToolStripMenuItem1.Text = "Veterinário";
-            // 
-            // toolStripLabel3
-            // 
-            this.toolStripLabel3.Name = "toolStripLabel3";
-            this.toolStripLabel3.Size = new System.Drawing.Size(48, 22);
-            this.toolStripLabel3.Text = "Agenda";
+            this.veterinárioToolStripMenuItem1.Click += new System.EventHandler(this.veterinárioToolStripMenuItem1_Click);
             // 
             // toolStripLabel2
             // 
@@ -217,7 +219,7 @@
             this.panel1.Size = new System.Drawing.Size(611, 592);
             this.panel1.TabIndex = 1;
             // 
-            // Form1
+            // HomeScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -227,7 +229,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
+            this.Name = "HomeScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pet Shop";
             this.toolStrip1.ResumeLayout(false);

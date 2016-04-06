@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlList.Designer.cs">
+      <DependentUpon>ControlList.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlPerson.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -61,6 +67,12 @@
     </Compile>
     <Compile Include="ControlPet.designer.cs">
       <DependentUpon>ControlPet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlServices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlServices.Designer.cs">
+      <DependentUpon>ControlServices.cs</DependentUpon>
     </Compile>
     <Compile Include="HomeScreen.cs">
       <SubType>Form</SubType>
@@ -75,11 +87,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ControlList.resx">
+      <DependentUpon>ControlList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlPerson.resx">
       <DependentUpon>ControlPerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlPet.resx">
       <DependentUpon>ControlPet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlServices.resx">
+      <DependentUpon>ControlServices.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeScreen.resx">
       <DependentUpon>HomeScreen.cs</DependentUpon>
