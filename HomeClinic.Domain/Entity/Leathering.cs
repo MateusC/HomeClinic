@@ -4,7 +4,7 @@ namespace HomeClinic.Domain.Entity
 {
     public class Leathering : Entity
     {
-        public String Name { get; set; }
-        public String Observation { get; set; }
+        public virtual String Name { get; set; }
+        public virtual String Observation { get; set; }
     }
 }

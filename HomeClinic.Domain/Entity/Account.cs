@@ -5,20 +5,20 @@ namespace HomeClinic.Domain.Entity
 {
     public class Account : Entity
     {
-        public String Name { get; set; }
-        public String FancyName { get; set; }
-        public String Cnpj { get; set; }
-        public String Cpf { get; set; }
-        public String Rg { get; set; }
-        public String Adress { get; set; }
-        public String Neighborhood { get; set; }
-        public Country Country { get; set; }
-        public DateTime RegisterDate { get; set; }
-        public String PhoneNumberOne { get; set; }
-        public String PhoneNumberTwo { get; set; }
-        public String Observation { get; set; }
-        public AccountKindEnum AccountKind { get; set; }
-        public String Crmv { get; set; }
+        public virtual String Name { get; set; }
+        public virtual String FancyName { get; set; }
+        public virtual String Cnpj { get; set; }
+        public virtual String Cpf { get; set; }
+        public virtual String Rg { get; set; }
+        public virtual String Adress { get; set; }
+        public virtual String Neighborhood { get; set; }
+        public virtual Country Country { get; set; }
+        public virtual DateTime RegisterDate { get; set; }
+        public virtual String PhoneNumberOne { get; set; }
+        public virtual String PhoneNumberTwo { get; set; }
+        public virtual String Observation { get; set; }
+        public virtual AccountKindEnum AccountKind { get; set; }
+        public virtual String Crmv { get; set; }
 
     }
 }

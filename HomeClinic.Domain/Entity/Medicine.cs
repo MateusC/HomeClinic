@@ -4,9 +4,9 @@ namespace HomeClinic.Domain.Entity
 {
     public class Medicine : Entity
     {
-        public String Name { get; set; }
-        public String TechnicalName { get; set; }
-        public String Application { get; set; }
-        public String Observation { get; set; }
+        public virtual String Name { get; set; }
+        public virtual String TechnicalName { get; set; }
+        public virtual String Application { get; set; }
+        public virtual String Observation { get; set; }
     }
 }

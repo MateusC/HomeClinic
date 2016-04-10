@@ -4,8 +4,8 @@ namespace HomeClinic.Domain.Entity
 {
     public class Prescription : Entity
     {
-        public Account Account { get; set; }
-        public Pet Pet{ get; set; }
-        public DateTime Date { get; set; }
+        public virtual Account Account { get; set; }
+        public virtual Pet Pet{ get; set; }
+        public virtual DateTime Date { get; set; }
     }
 }
