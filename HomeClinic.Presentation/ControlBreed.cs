@@ -10,29 +10,19 @@ using System.Windows.Forms;
 
 namespace HomeClinic.Presentation
 {
-    public partial class ControlList : UserControl
+    public partial class ControlBreed : UserControl
     {
-        public ControlList()
+        public ControlBreed()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void cboSpecie_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnEdit_Click(object sender, EventArgs e)
         {
 
         }

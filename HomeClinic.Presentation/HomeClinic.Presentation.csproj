@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlBreed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlBreed.Designer.cs">
+      <DependentUpon>ControlBreed.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlList.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -74,6 +80,12 @@
     <Compile Include="ControlServices.Designer.cs">
       <DependentUpon>ControlServices.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlSpecies.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlSpecies.Designer.cs">
+      <DependentUpon>ControlSpecies.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +99,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ControlBreed.resx">
+      <DependentUpon>ControlBreed.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlList.resx">
       <DependentUpon>ControlList.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,19 +114,16 @@
     <EmbeddedResource Include="ControlServices.resx">
       <DependentUpon>ControlServices.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ControlSpecies.resx">
+      <DependentUpon>ControlSpecies.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeScreen.resx">
       <DependentUpon>HomeScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
@@ -144,6 +156,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\272_128x128.png" />
+    <None Include="Resources\272_64x64.png" />
     <Content Include="Resources\add.ico" />
     <Content Include="Resources\catdog.ico" />
   </ItemGroup>

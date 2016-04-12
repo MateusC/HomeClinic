@@ -64,6 +64,21 @@ namespace HomeClinic.Presentation
         private void btnAppointmentHistory_Click(object sender, EventArgs e)
         {
 
-        }       
+        }
+
+        private void lblScale_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCode_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboBreed_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
