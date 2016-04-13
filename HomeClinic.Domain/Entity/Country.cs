@@ -4,7 +4,7 @@ namespace HomeClinic.Domain.Entity
 {
     public class Country : Entity
     {
-        public String Name { get; set; }
-        public State State { get; set; }
+        public virtual String Name { get; set; }
+        public virtual State State { get; set; }
     }
 }

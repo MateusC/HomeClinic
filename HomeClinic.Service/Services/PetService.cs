@@ -13,7 +13,7 @@ namespace HomeClinic.Service.Services
 
         private PetService()
         {
-            _repository = PetRepository.Instance;
+            _repository = new PetRepository();
         }
 
         public static PetService Instance

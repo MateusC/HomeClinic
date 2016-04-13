@@ -4,9 +4,9 @@ namespace HomeClinic.Domain.Entity
 {
     public class PrescriptionProduct : Entity
     {
-        public Prescription Prescription { get; set; }
-        public Medicine Medicine { get; set; }
-        public Decimal Amount { get; set; }
-        public String Unit { get; set; }
+        public virtual Prescription Prescription { get; set; }
+        public virtual Medicine Medicine { get; set; }
+        public virtual Decimal Amount { get; set; }
+        public virtual String Unit { get; set; }
     }
 }
