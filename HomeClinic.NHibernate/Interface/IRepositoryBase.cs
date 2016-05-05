@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace HomeClinic.NHibernate.Interface
+namespace HomeClinic.NHibernateNHibernate.Interface
 {
     public interface IRepositoryBase<T>
     {

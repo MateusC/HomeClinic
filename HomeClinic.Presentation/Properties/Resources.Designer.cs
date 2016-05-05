@@ -63,9 +63,19 @@ namespace HomeClinic.Presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _272_128x128 {
+        internal static System.Drawing.Bitmap _272_64x64 {
             get {
-                object obj = ResourceManager.GetObject("272_128x128", resourceCulture);
+                object obj = ResourceManager.GetObject("272_64x64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _272_64x641 {
+            get {
+                object obj = ResourceManager.GetObject("272_64x641", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

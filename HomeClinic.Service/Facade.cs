@@ -1,11 +1,8 @@
 ﻿using HomeClinic.Service.Interface;
 using HomeClinic.Service.Services;
-using Microsoft.Practices.Unity.InterceptionExtension;
-using HomeClinic.NHibernate;
 using HomeClinic.Domain.DTO;
 using HomeClinic.Domain.Entity;
 using System.Collections.Generic;
-using HomeClinic.DAL.Mapping;
 
 namespace HomeClinic.Service
 {
@@ -17,13 +14,15 @@ namespace HomeClinic.Service
 
         public static IFacade GetInstance(ConfigurationXml xmlConfig)
         {
-            DatabaseConfig config = new DatabaseConfig(xmlConfig.ConnectionString, xmlConfig.Provider, typeof(AbstractMap<>).Assembly);
+            //montar instancia do banco
 
-            var factory = NHibernateContext.GetFactory(config);
+            //DatabaseConfig config = new DatabaseConfig(xmlConfig.ConnectionString, xmlConfig.Provider, typeof(AbstractMap<>).Assembly);
 
-            IFacade facade = Intercept.ThroughProxy<IFacade>(new Facade(), new InterfaceInterceptor(), new[] { new NHibernateSessionManager(factory) });
+            //var factory = NHibernateContext.GetFactory(config);
 
-            return facade;
+            //IFacade facade = Intercept.ThroughProxy<IFacade>(new Facade(), new InterfaceInterceptor(), new[] { new NHibernateSessionManager(factory) });
+
+            return null; //facade
         }
 
         public List<Pet> GetAllPets()

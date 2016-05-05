@@ -9,6 +9,6 @@ namespace HomeClinic.Domain.Enum
     public enum EnumDataBaseProvider
     {
         Sql = 1,
-        Firebird = 2
+        MySQL = 2
     }
 }
