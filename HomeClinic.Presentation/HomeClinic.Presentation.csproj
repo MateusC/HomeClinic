@@ -112,6 +112,30 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
+    <Compile Include="ControlAttendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlAttendance.Designer.cs">
+      <DependentUpon>ControlAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlAttendanceList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlAttendanceList.Designer.cs">
+      <DependentUpon>ControlAttendanceList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlService.Designer.cs">
+      <DependentUpon>ControlService.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ControlAttendance.resx">
+      <DependentUpon>ControlAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlAttendanceList.resx">
+      <DependentUpon>ControlAttendanceList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlBreed.resx">
       <DependentUpon>ControlBreed.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ControlPet.resx">
       <DependentUpon>ControlPet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlService.resx">
+      <DependentUpon>ControlService.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlServices.resx">
       <DependentUpon>ControlServices.cs</DependentUpon>

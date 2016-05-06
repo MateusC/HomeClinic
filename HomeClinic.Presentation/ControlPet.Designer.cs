@@ -177,7 +177,7 @@
             // cboOwner
             // 
             this.cboOwner.FormattingEnabled = true;
-            this.cboOwner.Location = new System.Drawing.Point(289, 90);
+            this.cboOwner.Location = new System.Drawing.Point(289, 91);
             this.cboOwner.Name = "cboOwner";
             this.cboOwner.Size = new System.Drawing.Size(274, 29);
             this.cboOwner.TabIndex = 3;

@@ -1,6 +1,6 @@
 ﻿namespace HomeClinic.Presentation
 {
-    partial class ControlSpecies
+    partial class ControlAttendanceList
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,106 +28,120 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ControlSpecies));
-            this.txtColor2 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ControlAttendanceList));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.lblSpecie = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.dtpDate = new System.Windows.Forms.DateTimePicker();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnEdit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtColor2
-            // 
-            this.txtColor2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtColor2.Location = new System.Drawing.Point(274, 57);
-            this.txtColor2.MaxLength = 50;
-            this.txtColor2.Name = "txtColor2";
-            this.txtColor2.Size = new System.Drawing.Size(194, 29);
-            this.txtColor2.TabIndex = 55;
-            this.txtColor2.TextChanged += new System.EventHandler(this.txtColor2_TextChanged);
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 103);
+            this.dataGridView1.Location = new System.Drawing.Point(9, 108);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(585, 306);
-            this.dataGridView1.TabIndex = 54;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // lblSpecie
-            // 
-            this.lblSpecie.AutoSize = true;
-            this.lblSpecie.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.lblSpecie.Location = new System.Drawing.Point(270, 33);
-            this.lblSpecie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblSpecie.Name = "lblSpecie";
-            this.lblSpecie.Size = new System.Drawing.Size(64, 21);
-            this.lblSpecie.TabIndex = 56;
-            this.lblSpecie.Text = "Espécie:";
+            this.dataGridView1.Size = new System.Drawing.Size(585, 465);
+            this.dataGridView1.TabIndex = 59;
             // 
             // button3
             // 
             this.button3.Enabled = false;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(175, 15);
+            this.button3.Location = new System.Drawing.Point(171, 13);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 71);
-            this.button3.TabIndex = 53;
+            this.button3.TabIndex = 58;
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
             this.button2.Enabled = false;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(94, 15);
+            this.button2.Location = new System.Drawing.Point(90, 13);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 71);
-            this.button2.TabIndex = 52;
+            this.button2.TabIndex = 57;
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(13, 15);
+            this.button1.Location = new System.Drawing.Point(9, 13);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 71);
-            this.button1.TabIndex = 51;
+            this.button1.TabIndex = 56;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dtpDate
+            // 
+            this.dtpDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDate.Location = new System.Drawing.Point(267, 55);
+            this.dtpDate.Name = "dtpDate";
+            this.dtpDate.Size = new System.Drawing.Size(124, 29);
+            this.dtpDate.TabIndex = 61;
+            this.dtpDate.ValueChanged += new System.EventHandler(this.dtpDate_ValueChanged);
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Location = new System.Drawing.Point(263, 31);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(45, 21);
+            this.lblDate.TabIndex = 60;
+            this.lblDate.Text = "Data:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(411, 55);
+            this.textBox1.MaxLength = 14;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(83, 29);
+            this.textBox1.TabIndex = 69;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(407, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(47, 21);
+            this.label2.TabIndex = 68;
+            this.label2.Text = "Hora:";
             // 
             // btnEdit
             // 
             this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnEdit.Location = new System.Drawing.Point(489, 56);
+            this.btnEdit.Location = new System.Drawing.Point(502, 55);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(109, 29);
-            this.btnEdit.TabIndex = 57;
+            this.btnEdit.Size = new System.Drawing.Size(92, 28);
+            this.btnEdit.TabIndex = 70;
             this.btnEdit.TabStop = false;
             this.btnEdit.Text = "Pesquisar";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Visible = false;
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
-            // ControlSpecies
+            // ControlAttendanceList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnEdit);
-            this.Controls.Add(this.lblSpecie);
-            this.Controls.Add(this.txtColor2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.dtpDate);
+            this.Controls.Add(this.lblDate);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "ControlSpecies";
+            this.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "ControlAttendanceList";
             this.Size = new System.Drawing.Size(611, 592);
-            this.Load += new System.EventHandler(this.ControlSpecies_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -135,12 +149,14 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txtColor2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label lblSpecie;
+        private System.Windows.Forms.DateTimePicker dtpDate;
+        private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnEdit;
     }
 }

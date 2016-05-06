@@ -36,5 +36,15 @@ namespace HomeClinic.Presentation
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ControlList_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

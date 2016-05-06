@@ -91,6 +91,7 @@
             this.txtRegistrationDate.Size = new System.Drawing.Size(128, 29);
             this.txtRegistrationDate.TabIndex = 8;
             this.txtRegistrationDate.TabStop = false;
+            this.txtRegistrationDate.TextChanged += new System.EventHandler(this.txtRegistrationDate_TextChanged);
             // 
             // lblRegistrationDate
             // 
@@ -250,7 +251,7 @@
             this.lblPhone.AutoSize = true;
             this.lblPhone.Location = new System.Drawing.Point(481, 71);
             this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(72, 21);
+            this.lblPhone.Size = new System.Drawing.Size(70, 21);
             this.lblPhone.TabIndex = 24;
             this.lblPhone.Text = "Telefone:";
             // 
@@ -303,7 +304,7 @@
             // 
             // txtCity
             // 
-            this.txtCity.Location = new System.Drawing.Point(134, 220);
+            this.txtCity.Location = new System.Drawing.Point(134, 224);
             this.txtCity.MaxLength = 14;
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(206, 29);

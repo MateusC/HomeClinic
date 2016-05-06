@@ -33,6 +33,7 @@
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripDropDownButton2 = new System.Windows.Forms.ToolStripDropDownButton();
             this.administrativoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.especieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medicamentoVacinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.raçaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tosaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,7 +51,6 @@
             this.petToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.veterinárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.especieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -97,6 +97,12 @@
             this.administrativoToolStripMenuItem1.Name = "administrativoToolStripMenuItem1";
             this.administrativoToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.administrativoToolStripMenuItem1.Text = "Administrativo";
+            // 
+            // especieToolStripMenuItem
+            // 
+            this.especieToolStripMenuItem.Name = "especieToolStripMenuItem";
+            this.especieToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.especieToolStripMenuItem.Text = "Espécie";
             // 
             // medicamentoVacinaToolStripMenuItem
             // 
@@ -221,12 +227,6 @@
             this.panel1.Size = new System.Drawing.Size(611, 592);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // especieToolStripMenuItem
-            // 
-            this.especieToolStripMenuItem.Name = "especieToolStripMenuItem";
-            this.especieToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
-            this.especieToolStripMenuItem.Text = "Espécie";
             // 
             // HomeScreen
             // 

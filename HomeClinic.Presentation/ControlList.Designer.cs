@@ -108,6 +108,7 @@
             this.button3.Size = new System.Drawing.Size(75, 71);
             this.button3.TabIndex = 36;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // ControlList
             // 
@@ -122,6 +123,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "ControlList";
             this.Size = new System.Drawing.Size(611, 592);
+            this.Load += new System.EventHandler(this.ControlList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
