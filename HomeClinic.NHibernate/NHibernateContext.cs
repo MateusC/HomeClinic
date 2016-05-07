@@ -78,8 +78,8 @@ namespace HomeClinic.NHibernate
                     _databaseStrategy = new SqlStrategy();
                     break;
 
-                case EnumDataBaseProvider.Firebird:
-                    _databaseStrategy = new FirebirdStrategy();
+                case EnumDataBaseProvider.MySQL:
+                    _databaseStrategy = new MySQLStrategy();
                     break;
             }
 

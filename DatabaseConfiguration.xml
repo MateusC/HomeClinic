@@ -1,4 +1,4 @@
 ﻿<DatabaseConfiguration>
-  <ConnectionString>DataSource=127.0.0.1; Database=D:\Users\Matt\Documents\Programação\GitHub Repositories\HomeClinic\PETSHOP.FDB; UserId=SYSDBA; Pwd=masterkey;</ConnectionString>
+  <ConnectionString>Server=localhost;Database=petshop;Uid=root;Pwd=root;</ConnectionString>
   <Provider>2</Provider>
 </DatabaseConfiguration>

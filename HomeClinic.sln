@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeClinic.Service", "HomeClinic.Service\HomeClinic.Service.csproj", "{DA599A48-FB98-4889-A076-1A81EDCC82D3}"
 EndProject
@@ -20,9 +20,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferramentas do Banco", "Ferramentas do Banco", "{8287B554-18DB-43F2-9694-BF8B29BC4DAF}"
 	ProjectSection(SolutionItems) = preProject
-		Database Manager.exe = Database Manager.exe
-		Firebird Installer.exe = Firebird Installer.exe
-		PETSHOP.FDB = PETSHOP.FDB
 		README.txt = README.txt
 	EndProjectSection
 EndProject

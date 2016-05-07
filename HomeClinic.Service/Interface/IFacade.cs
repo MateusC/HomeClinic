@@ -12,6 +12,11 @@ namespace HomeClinic.Service.Interface
         //implementar os métodos que poderão ser chamados na tela.
         void Initialization();
 
+        /// <summary>
+        /// Retorna todos os animais para a tela
+        /// </summary>
+        /// <returns></returns>
         List<Pet> GetAllPets();
+        
     }
 }
