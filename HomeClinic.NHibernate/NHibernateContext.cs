@@ -72,6 +72,7 @@ namespace HomeClinic.NHibernate
 
         private static void SetStrategyPattern(EnumDataBaseProvider provider)
         {
+
             switch (provider)
             {
                 case EnumDataBaseProvider.Sql:

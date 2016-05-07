@@ -1,0 +1,12 @@
+C:\Users\Greicy\Documents\GitHub\HomeClinic\HomeClinic.Domain\bin\Debug\HomeClinic.Domain.dll
+C:\Users\Greicy\Documents\GitHub\HomeClinic\HomeClinic.Domain\bin\Debug\HomeClinic.Domain.pdb
+C:\Users\Greicy\Documents\GitHub\HomeClinic\HomeClinic.Domain\obj\Debug\HomeClinic.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Greicy\Documents\GitHub\HomeClinic\HomeClinic.Domain\obj\Debug\HomeClinic.Domain.dll
+C:\Users\Greicy\Documents\GitHub\HomeClinic\HomeClinic.Domain\obj\Debug\HomeClinic.Domain.pdb
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Domain\bin\Debug\HomeClinic.Domain.dll
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Domain\bin\Debug\HomeClinic.Domain.pdb
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Domain\obj\Debug\HomeClinic.Domain.dll
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Domain\obj\Debug\HomeClinic.Domain.pdb
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Domain\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Domain\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Domain\obj\Debug\HomeClinic.Domain.csprojResolveAssemblyReference.cache

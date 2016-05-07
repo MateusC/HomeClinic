@@ -1,0 +1,12 @@
+C:\Users\Greicy\Documents\GitHub\HomeClinic\HomeClinic.Test\bin\Debug\HomeClinic.Test.dll
+C:\Users\Greicy\Documents\GitHub\HomeClinic\HomeClinic.Test\bin\Debug\HomeClinic.Test.pdb
+C:\Users\Greicy\Documents\GitHub\HomeClinic\HomeClinic.Test\obj\Debug\HomeClinic.Test.csprojResolveAssemblyReference.cache
+C:\Users\Greicy\Documents\GitHub\HomeClinic\HomeClinic.Test\obj\Debug\HomeClinic.Test.dll
+C:\Users\Greicy\Documents\GitHub\HomeClinic\HomeClinic.Test\obj\Debug\HomeClinic.Test.pdb
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Test\bin\Debug\HomeClinic.Test.dll
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Test\bin\Debug\HomeClinic.Test.pdb
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Test\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Test\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Test\obj\Debug\HomeClinic.Test.csprojResolveAssemblyReference.cache
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Test\obj\Debug\HomeClinic.Test.dll
+D:\BKP\user\Cliente\Desktop\HomeClinic\HomeClinic.Test\obj\Debug\HomeClinic.Test.pdb
