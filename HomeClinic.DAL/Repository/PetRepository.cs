@@ -5,6 +5,5 @@ namespace HomeClinic.DAL.Repository
 {
     public class PetRepository : RepositoryBase<Pet>
     {
-        
     }
 }

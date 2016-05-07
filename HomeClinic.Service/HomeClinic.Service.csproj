@@ -88,7 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HomeClinic.DAL\HomeClinic.DAL.csproj">
-      <Project>{39e4e6da-a0c6-4449-a527-8850e1da2883}</Project>
+      <Project>{38c91b67-9204-4145-8bde-4b75b29565a1}</Project>
       <Name>HomeClinic.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\HomeClinic.Domain\HomeClinic.Domain.csproj">
@@ -103,6 +103,9 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -50,5 +50,10 @@ namespace HomeClinic.Presentation
             panel1.Controls.Clear();
             panel1.Controls.Add(new ControlPerson());
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

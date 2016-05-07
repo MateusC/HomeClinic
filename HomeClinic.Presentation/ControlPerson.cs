@@ -23,5 +23,10 @@ namespace HomeClinic.Presentation
             // v - veterinario
             //c - cliente
         }
+
+        private void txtRegistrationDate_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

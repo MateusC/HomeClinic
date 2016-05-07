@@ -88,6 +88,7 @@
             this.txtCode.Size = new System.Drawing.Size(64, 29);
             this.txtCode.TabIndex = 1;
             this.txtCode.TabStop = false;
+            this.txtCode.TextChanged += new System.EventHandler(this.txtCode_TextChanged);
             // 
             // lblRegistrationDate
             // 
@@ -176,7 +177,7 @@
             // cboOwner
             // 
             this.cboOwner.FormattingEnabled = true;
-            this.cboOwner.Location = new System.Drawing.Point(289, 90);
+            this.cboOwner.Location = new System.Drawing.Point(289, 91);
             this.cboOwner.Name = "cboOwner";
             this.cboOwner.Size = new System.Drawing.Size(274, 29);
             this.cboOwner.TabIndex = 3;
@@ -341,6 +342,7 @@
             this.lblScale.Size = new System.Drawing.Size(49, 21);
             this.lblScale.TabIndex = 39;
             this.lblScale.Text = "Porte:";
+            this.lblScale.Click += new System.EventHandler(this.lblScale_Click);
             // 
             // cboScale
             // 
@@ -377,6 +379,7 @@
             this.cboBreed.Name = "cboBreed";
             this.cboBreed.Size = new System.Drawing.Size(178, 29);
             this.cboBreed.TabIndex = 7;
+            this.cboBreed.SelectedIndexChanged += new System.EventHandler(this.cboBreed_SelectedIndexChanged);
             // 
             // cboSpecie
             // 

@@ -33,6 +33,7 @@
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripDropDownButton2 = new System.Windows.Forms.ToolStripDropDownButton();
             this.administrativoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.especieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medicamentoVacinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.raçaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tosaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -89,6 +90,7 @@
             // administrativoToolStripMenuItem1
             // 
             this.administrativoToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.especieToolStripMenuItem,
             this.medicamentoVacinaToolStripMenuItem,
             this.raçaToolStripMenuItem1,
             this.tosaToolStripMenuItem1});
@@ -96,22 +98,28 @@
             this.administrativoToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.administrativoToolStripMenuItem1.Text = "Administrativo";
             // 
+            // especieToolStripMenuItem
+            // 
+            this.especieToolStripMenuItem.Name = "especieToolStripMenuItem";
+            this.especieToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.especieToolStripMenuItem.Text = "Espécie";
+            // 
             // medicamentoVacinaToolStripMenuItem
             // 
             this.medicamentoVacinaToolStripMenuItem.Name = "medicamentoVacinaToolStripMenuItem";
-            this.medicamentoVacinaToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.medicamentoVacinaToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.medicamentoVacinaToolStripMenuItem.Text = "Medicamento/Vacina";
             // 
             // raçaToolStripMenuItem1
             // 
             this.raçaToolStripMenuItem1.Name = "raçaToolStripMenuItem1";
-            this.raçaToolStripMenuItem1.Size = new System.Drawing.Size(188, 22);
+            this.raçaToolStripMenuItem1.Size = new System.Drawing.Size(187, 22);
             this.raçaToolStripMenuItem1.Text = "Raça";
             // 
             // tosaToolStripMenuItem1
             // 
             this.tosaToolStripMenuItem1.Name = "tosaToolStripMenuItem1";
-            this.tosaToolStripMenuItem1.Size = new System.Drawing.Size(188, 22);
+            this.tosaToolStripMenuItem1.Size = new System.Drawing.Size(187, 22);
             this.tosaToolStripMenuItem1.Text = "Serviço";
             this.tosaToolStripMenuItem1.Click += new System.EventHandler(this.tosaToolStripMenuItem1_Click);
             // 
@@ -177,19 +185,19 @@
             // tosaToolStripMenuItem
             // 
             this.tosaToolStripMenuItem.Name = "tosaToolStripMenuItem";
-            this.tosaToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.tosaToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.tosaToolStripMenuItem.Text = "Tosa";
             // 
             // raçaToolStripMenuItem
             // 
             this.raçaToolStripMenuItem.Name = "raçaToolStripMenuItem";
-            this.raçaToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.raçaToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.raçaToolStripMenuItem.Text = "Raça";
             // 
             // vacinaToolStripMenuItem1
             // 
             this.vacinaToolStripMenuItem1.Name = "vacinaToolStripMenuItem1";
-            this.vacinaToolStripMenuItem1.Size = new System.Drawing.Size(188, 22);
+            this.vacinaToolStripMenuItem1.Size = new System.Drawing.Size(187, 22);
             this.vacinaToolStripMenuItem1.Text = "Medicamento/Vacina";
             // 
             // clienteToolStripMenuItem
@@ -218,6 +226,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(611, 592);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // HomeScreen
             // 
@@ -262,6 +271,7 @@
         private System.Windows.Forms.ToolStripMenuItem petToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem veterinárioToolStripMenuItem1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel3;
+        private System.Windows.Forms.ToolStripMenuItem especieToolStripMenuItem;
     }
 }
 
